@@ -1,6 +1,6 @@
 import sqlite3
 
-nazwaBazyDanych = "test.db"
+nazwaBazyDanych = "cars.db"
 
 def otworzPolaczenie():
     global polaczenie

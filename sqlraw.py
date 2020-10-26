@@ -1,11 +1,11 @@
-#! /usr/bin/env python3
+#! python37
 # -*- coding: utf-8 -*-
 
 import sqlite3
 
 # utworzenie połączenia z bazą przechowywaną na dysku
 # lub w pamięci (':memory:')
-con = sqlite3.connect('test2.db')
+con = sqlite3.connect('test.db')
 
 # dostęp do kolumn przez indeksy i przez nazwy
 con.row_factory = sqlite3.Row

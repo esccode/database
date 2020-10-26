@@ -16,7 +16,7 @@ print("list before writed",data)
 ##Part 02 write list to binary file
 
 
-file = open('important', 'wb')
+file = open('important.txt', 'wb')
 
 pickle.dump(data, file)
 
@@ -24,7 +24,7 @@ file.close()
 
 
 ## Part 03 open a file, where you stored the pickled data
-file = open('important', 'rb')
+file = open('important.txt', 'rb')
 
 # dump information to that file
 data = pickle.load(file)

@@ -23,10 +23,10 @@ person = Person('Monica', 15)
 print(person.get_name())
 print(person.get_age())
 
-with open('monica', 'wb') as f:
+with open('monica.txt', 'wb') as f:
     pickle.dump(person, f)
 
-with open('monica', 'rb') as f2:
+with open('monica.txt', 'rb') as f2:
     monica = pickle.load(f2)
 
 print(monica.get_name())

@@ -1,4 +1,4 @@
-from bazydanych import *
+from funcToDB import *
 
 wybor = -1
 

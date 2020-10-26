@@ -11,7 +11,7 @@ timestamp = datetime.fromtimestamp(modifiedTime).strftime("%b-%d-%Y_%H.%M.%S")
 #prevName = '.\\dane.txt'
 #newName = 'backup\\dane.txt'
 
-os.popen('copy dane.txt backup\\dane_{}.txt'.format(timestamp))
+os.popen('copy .\\dane.txt backup\\dane_{}.txt'.format(timestamp))
 #os.rename(prevName,newName+"_"+timestamp + ".txt")
 print("Last modifiedTime: ",timestamp)
 
